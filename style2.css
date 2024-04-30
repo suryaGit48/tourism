@@ -1,0 +1,201 @@
+body.bo{
+    background-image:url("./img/mbg3.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+  }
+  div.cahea{
+    background-image:url("./img/blurbg1.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    font-size:25px;
+    font-weight:bold;
+    
+  }
+  div.caheat{
+    background-image:url("./img/blubg5.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    font-size:15px;
+    font-weight:bold;
+    
+  }
+  div.bgbok
+  {
+    background-image:url("./img/blubg5.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+  }
+  @media print{
+    .body * { visibility:hidden; color:black;}
+    div.pr{display:none;}
+    div.prfo{display:none;}
+    a.ok{display:none;}
+  }a.dropdown-item:hover{
+    background-color:rgb(255, 1, 1);
+    color:white;
+  }
+
+  
+  body.mybg{
+    background-image:url("./img/bga4.jpg");
+    background-size: cover;
+  }
+  div.mybcb{
+    background-image:url("./img/blubg5.jpg");
+    background-size:cover;
+  }
+    /* background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    animation: change 20s infinite ease-in-out; 
+  }
+  @keyframes change
+  {
+    0%{
+      background-image: url("./img/bga6.jpg");
+    }
+    25%{
+      background-image: url("./img/cbg.jpg");
+    }
+  
+    50%{
+      background-image: url("./img/bga2.jpg");
+    }
+    75%{
+      background-image: url("./img/bga3.jpg");
+    }
+    100%{
+      background-image: url("./img/bga4.jpg");
+    }
+  } */
+  body.mybgh{
+    background-image:url("./img/mbg3.jpg");
+    background-size: cover;
+    background-attachment:fixed; 
+  }
+  nav.myb{
+    background-image:url("./img/bgp.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    width:100%;
+  }
+  a.navli{margin-left:20px; font-size:18px;
+  }
+ 
+  div.nba{
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin: 6px 0;
+  }
+ 
+
+  @media only screen and (max-width:560px)
+  {
+    div.chil{
+      margin-top:20px;
+    }
+    input[type=number].fam{
+      width:250px;
+      margin-left:-100px;
+    }
+  }
+  #flig{
+    display:block;
+  }#tra{display:block;}#bus{display:block;}#car{display:block;}
+
+/* payments page */
+ #mytabs.nav-link.active{
+   background-color:green;
+  }
+  div.bocha{
+    background-image:url("./img/blurbg1.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+  }
+ 
+  a.palin{
+    font-size:12px;
+    font-weight: bold;
+     background: none;
+  }
+  div.namcr{
+    margin-left:-26px;
+  }
+  h5.crname{
+    margin-left:40px;
+  }
+  input[type=text].incn{
+    width:310px;
+    margin-left:-10px;
+  } 
+  input[type=number].incnu{
+    width:100px;
+    margin-left:-35px;
+  } 
+  input[type=number].mon{
+    
+    margin-left:-44px;
+  } 
+  h5.ncav{
+    margin-left:60px;
+  }
+  h5.exp{
+    margin-left:40px;
+  }
+  h5.decn{
+    margin-left:12px;
+  }
+  @media only screen and (max-width:560px)
+  {
+   a.palin{
+    font-size:10px;
+    font-weight: bold;
+    background:none;
+   }
+   input[type=text].incn{
+    width:200px;
+    margin-left:-10px;
+    margin-left:24px;
+  }
+  h5.exp{
+    margin-left:70px;
+  }
+  input[type=number].mon{
+    
+    margin-left:10px;
+  } 
+  input[type=number].incnu{
+    width:120px;
+    margin-left:-10px;
+    margin-left:5px;
+  } 
+  h5.nca{
+    margin-left:57px;
+
+  }
+ div.ctyp{
+  margin-left:80px;
+ }
+  h5.cty{
+    margin-left:-10px;
+  }
+ 
+  }
+  a.dropdown-item{
+    background:none;
+  }
+  a.dropdown-item:hover{
+    background-image:url("./img/blubg5.jpg");
+    background-size:cover;
+  
+    font-size:15px;
+    color:black;
+   
+  }
